@@ -1,0 +1,275 @@
+/* global & resets */
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins";
+    color: var(--charcoal);
+    border: none;
+}
+
+:root {
+
+    /* colors */
+    --darkblue: rgb(27, 49, 87);
+    --navy: rgb(22, 33, 51);
+    --gold: rgb(187, 135, 54);
+    --lightgrey: rgb(145, 143, 143);
+    --charcoal: rgb(43, 45, 51);
+    --darkblue-light: rgb(45, 71, 119);
+    --darkblue-lighter: rgb(68, 99, 156);
+    --navy-light: rgb(38, 53, 80);
+    --navy-lighter: rgb(63, 80, 111);
+    --gold-dark: rgb(153, 108, 38);
+    --gold-light: rgb(212, 168, 99);
+    --gold-lighter: rgb(239, 212, 152);
+    --lightgrey-light: rgb(179, 177, 177);
+    --lightgrey-lighter: rgb(214, 212, 212);
+    --charcoal-light: rgb(65, 68, 75);
+    --charcoal-lighter: rgb(90, 93, 101);
+}
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.app-body {
+    background-color: var(--navy-lighter);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-card-main {
+    background-color: #D9D9D9;
+    width: 66.25rem;
+    height: 38rem;
+    display: flex;
+    border-radius: 20px;
+    padding: 4rem;
+    position: relative;
+}
+
+.startmenu-info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#tmr-logo {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.left-content {
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.right-content {
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.action-button {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    margin: auto;
+}
+
+/* Start Menu */
+
+.startmenu-info, .startmenu-header {
+    width: 50%;
+    height: 100%;
+}
+
+.startmenu-header h1, .quiz-question {
+    font-size: 3rem;
+    text-align: start;
+    margin-top: 6rem;
+}
+
+.startmenu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.startmenu-info p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.startmenu-info p:last-of-type {
+    margin-bottom: 4rem;
+}
+
+.action-button {
+    background-color: var(--gold);
+    width: 22rem;
+    height: 4rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+    box-shadow: var(--charcoal-lighter) 2px 2px;
+}
+
+.action-button:hover {
+    background-color: var(--gold-light);
+}
+
+.action-button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+
+/* Quiz Selection Menu */
+
+#quiz-type-selection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.half-width-button {
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: var(--navy);
+    font-size: 1rem;
+    color: white;
+}
+
+.half-width-button:hover {
+  background-color: var(--navy-lighter);
+}
+
+.half-width-button:active {
+  background-color: var(--navy-lighter);
+}
+
+.selection-buttons p {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
