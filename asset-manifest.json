@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tmr-find-my-setup/static/css/main.13f34498.css",
+    "main.js": "/tmr-find-my-setup/static/js/main.afcbcc21.js",
+    "static/js/453.9755aea6.chunk.js": "/tmr-find-my-setup/static/js/453.9755aea6.chunk.js",
+    "static/media/logo-flex-dark.png": "/tmr-find-my-setup/static/media/logo-flex-dark.6d525093552ae52222b1.png",
+    "static/media/logo.svg": "/tmr-find-my-setup/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/tmr-find-my-setup/index.html",
+    "main.13f34498.css.map": "/tmr-find-my-setup/static/css/main.13f34498.css.map",
+    "main.afcbcc21.js.map": "/tmr-find-my-setup/static/js/main.afcbcc21.js.map",
+    "453.9755aea6.chunk.js.map": "/tmr-find-my-setup/static/js/453.9755aea6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13f34498.css",
+    "static/js/main.afcbcc21.js"
+  ]
+}
