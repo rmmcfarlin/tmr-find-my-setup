@@ -28,7 +28,7 @@ const QuizSelection = ({setQuizName}) => {
     }
 
     const componentCopy = "Get recommendations for individual components based on your current system and listening preferences."
-    const fullsystemCopy = "Generate a full system based on your room size, listening preferences, and more."
+    const fullsystemCopy = "Get recommendations for a full system based on your room size, listening preferences, and more."
 
     const getTypeSelection = () => {
         if (typeSelection === "component") {return componentCopy}
@@ -49,7 +49,7 @@ const QuizSelection = ({setQuizName}) => {
     return (
         <>
         <div className="selection-header left-content">
-            <p className="quiz-question">Select an quiz to get started.</p>
+            <p className="quiz-question">Select a category to get started.</p>
         </div>
         <div className="selection-buttons right-content">
             <div id="quiz-type-selection">

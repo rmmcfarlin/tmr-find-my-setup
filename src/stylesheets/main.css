@@ -141,7 +141,7 @@
 }
 
 .app-body {
-    background-color: var(--navy-lighter);
+    background-color: var(--navy);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -218,6 +218,11 @@
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.startmenu-info p:last-of-type {
+  margin-top: 4rem;
+  margin-bottom: -1.5rem;
 }
 
 .startmenu-info p:last-of-type {
@@ -314,13 +319,100 @@
   overflow: scroll;
   margin-top: 1rem;
   align-items: center;
-  padding: 0.1rem 0;
+  padding: 0.3rem 0;
 }
 
-.component-button:hover {
-  box-shadow: 0px 0px 3px black;
+.component-button:hover, .answer-button:hover {
+  box-shadow: 0px 0px 5px 1px black;
 }
 
-.component-button.active {
-  box-shadow: 0px 0px 3px black;
+.component-button.active, .answer-button.active {
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+/* Quizzes */
+
+#no-answer-message {
+  position: absolute;
+  bottom: 2.75rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-style: italic;
+}
+
+.quiz-question-container {
+  max-height: 90%;
+  padding-right: 1rem;
+}
+
+.quiz-question {
+  font-size: 2rem;
+}
+
+.quiz-answer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.answer-button {
+  min-height: 3.5rem;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Subscription Page */
+
+.email-subscription-image {
+  display: flex;
+  align-items: center;
+}
+
+.email-subscription-image img {
+ width: 90%;
+ margin-top: 2rem;
+}
+
+.email-subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-subscription-copy p:first-of-type {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  width: 100%;
+}
+
+input[type="email"] {
+  all: unset;
+  background-color: white;
+  margin: 2.5rem 0;
+  width: 80%;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.subscribe-button {
+  bottom: 2rem;
+}
+
+.no-subscribe-button {
+  position: absolute;
+  bottom: -0.5rem;
+  background: transparent;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.no-subscribe-button:hover {
+  color: var(--gold-dark);
 }

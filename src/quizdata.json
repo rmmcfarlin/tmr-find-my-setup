@@ -1,0 +1,663 @@
+{
+  "quizzes": [
+    {
+      "title": "fullsystem",
+      "icon": "../assets/icons/category-icons/full-system-icon.png",
+      "questions": [
+        {
+          "question": "What size will your listening space be?",
+          "options": [
+            "Small (under 150 sq ft)",
+            "Medium (150–300 sq ft)",
+            "Large (over 300 sq ft)"
+          ]
+        },
+        {
+          "question": "Do you prefer more integrated setups or separates?",
+          "options": [
+            "Simple—the fewer components the better",
+            "Moderate—fewer components with options for various sources or future upgrades",
+            "Full separates—better for tweaking, upgrading, and experimenting"
+          ]
+        },
+        {
+          "question": "What kind of sound signature do you prefer?",
+          "options": [
+            "Warm and smooth",
+            "Neutral and accurate",
+            "Bright and detailed"
+          ]
+        },
+        {
+          "question": "Do you prefer analog or digital sources?",
+          "options": [
+            "Analog (vinyl, tape, etc.)",
+            "Digital (CDs, streaming, etc.)",
+            "Both"
+          ]
+        },
+        {
+          "question": "Is streaming and wireless audio important to you?",
+          "options": [
+            "Yes",
+            "No",
+            "Nice, but not critical"
+          ]
+        },
+        {
+          "question": "What is your budget?",
+          "options": [
+            "Entry Level (Under $1,000)",
+            "Starter System (Under $2,500)",
+            "Midrange (Under $5,000)",
+            "High End (Under $10,000)",
+            "Reference (Over $10,000)"
+          ]
+        }
+      ]
+    },
+    {
+  "title": "Power Amplifiers",
+  "icon": "../assets/icons/category-icons/power-amplifiers-icon.png",
+  "questions": [
+    {
+      "question": "What type of speakers will you be powering?",
+      "options": [
+        "Bookshelf speakers",
+        "Floorstanding speakers",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "How efficient are your speakers (or the ones you're considering)?",
+      "options": [
+        "High efficiency (90dB or higher)",
+        "Moderate (85–89dB)",
+        "Low efficiency (below 85dB)",
+        "I don't know"
+      ]
+    },
+    {
+      "question": "What kind of amplifier design do you prefer?",
+      "options": [
+        "Solid-state",
+        "Tube",
+        "Hybrid",
+        "No Preference"
+      ]
+    },
+    {
+      "question": "How much power output do you think you'll need?",
+      "options": [
+        "Less than 50 watts per channel",
+        "50–100 watts per channel",
+        "Over 100 watts per channel",
+        "Not sure — I need help deciding"
+      ]
+    },
+    {
+      "question": "Do you want a stereo amplifier or monoblocks?",
+      "options": [
+        "Stereo (one amp for both channels)",
+        "Monoblocks (separate amps for each channel)",
+        "Doesn't matter to me"
+      ]
+    },
+    {
+      "question": "What amplifier topology / class do you prefer?",
+      "options": [
+       "Class A all the way",
+       "Class A/B",
+       "Class D",
+       "No preference"
+      ]
+    },
+    {
+      "question": "What are your space constraints?",
+      "options": [
+        "Small area, looking for a compact amp",
+        "Moderate, looking for a standard-sized chassis",
+        "Large area, space doesn't matter",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What is your budget for a power amplifier?",
+      "options": [
+        "Under $1000",
+        "$1000-$2500",
+        "$2,500 – $5,000",
+        "$5,000 - $10,000",
+        "Reference Level - Over $10,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "Preamplifiers",
+  "icon": "../assets/icons/category-icons/preamplifiers-icon.png",
+  "questions": [
+    {
+      "question": "What source components will you be connecting to your preamp?",
+      "options": [
+        "Streamer or digital player",
+        "Turntable",
+        "CD player",
+        "TV or home theater gear",
+        "Multiple of the above"
+      ]
+    },
+    {
+      "question": "Do you need a phono stage (for a turntable) built into your preamp?",
+      "options": [
+        "Yes — I use a turntable and prefer built-in",
+        "No — I have an external phono stage",
+        "Not needed — I don't listen to vinyl"
+      ]
+    },
+    {
+      "question": "Do you need a DAC (digital-to-analog converter) built into your preamp?",
+      "options": [
+        "Yes — I want a built-in DAC",
+        "No — I use a separate DAC",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What type of volume control do you prefer?",
+      "options": [
+        "Manual knob",
+        "Remote control capability",
+        "Digital / stepped attenuator",
+        "Doesn't matter"
+      ]
+    },
+    {
+      "question": "Do you need a headphone output on your preamp?",
+      "options": [
+        "Yes — I use headphones regularly",
+        "No — not important to me",
+        "Nice to have, but not critical"
+      ]
+    },
+    {
+      "question": "Would you prefer a solid-state or tube-based preamp?",
+      "options": [
+        "Solid-state",
+        "Tube",
+        "No preference / not sure"
+      ]
+    },
+    {
+      "question": "How many inputs do you need on your preamp?",
+      "options": [
+        "1–2",
+        "3–4",
+        "5 or more",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What is your budget for a preamplifier?",
+      "options": [
+        "Under $1000",
+        "$1000-$2500",
+        "$2,500 – $5,000",
+        "$5,000 - $10,000",
+        "Reference Level - Over $10,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "Integrated Amplifiers",
+  "icon": "../assets/icons/category-icons/integrated-amplifiers-icon.png",
+  "questions": [
+    {
+      "question": "Are you looking for an all-in-one solution (amp + DAC + streamer)?",
+      "options": [
+        "Yes — I want one box that does everything",
+        "No — just amp and preamp is fine",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What type of speakers will you be using with your integrated amplifier?",
+      "options": [
+        "Bookshelf speakers",
+        "Floorstanding speakers",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What is your preferred amplifier type?",
+      "options": [
+        "Solid-state",
+        "Tube",
+        "Hybrid",
+        "No preference"
+      ]
+    },
+    {
+      "question": "What amplifier topology / class do you prefer?",
+      "options": [
+       "Class A all the way",
+       "Class A/B",
+       "Class D",
+       "No preference"
+      ]
+    },
+    {
+      "question": "Do you need digital inputs (USB, optical, coaxial) on your amplifier?",
+      "options": [
+        "Yes — I want to connect digital sources directly",
+        "No — I’ll use a separate DAC",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you need built-in streaming support (e.g., AirPlay, Chromecast, Roon, etc.)?",
+      "options": [
+        "Yes — I want to stream music directly",
+        "No — I’ll use a separate streamer",
+        "Nice to have, but not required"
+      ]
+    },
+    {
+      "question": "Do you need a phono input (for a turntable)?",
+      "options": [
+        "Yes",
+        "No",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you want a headphone output on your integrated amplifier?",
+      "options": [
+        "Yes — I listen on headphones often",
+        "No — not important",
+        "Nice to have"
+      ]
+    },
+    {
+      "question": "How much power do you need?",
+      "options": [
+        "Under 50W per channel",
+        "50–100W per channel",
+        "Over 100W per channel",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you want tone controls (bass, treble) or EQ features?",
+      "options": [
+        "Yes — I want to shape the sound",
+        "No — I prefer pure signal",
+        "Not important"
+      ]
+    },
+    {
+      "question": "What is your budget for an integrated amplifier?",
+      "options": [
+        "Under $1,000",
+        "$1,000 – $2,500",
+        "$2,500 – $5,000",
+        "$5,000 – $10,000",
+        "Reference - Over $10,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "Speakers",
+  "icon": "../assets/icons/category-icons/speakers-icon.png",
+  "questions": [
+    {
+      "question": "What type of speakers are you looking for?",
+      "options": [
+        "Bookshelf / standmount",
+        "Floorstanding / tower",
+        "Open to either"
+      ]
+    },
+    {
+      "question": "How large is your listening space?",
+      "options": [
+        "Small (under 150 sq ft)",
+        "Medium (150–300 sq ft)",
+        "Large (over 300 sq ft)"
+      ]
+    },
+    {
+      "question": "How important is flexibility with speaker placement?",
+      "options": [
+        "Important, I plan to have them close to walls.",
+        "Not important, I have space to optimize placement.",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "What kind of sound signature do you prefer?",
+      "options": [
+        "Warm and full-bodied",
+        "Neutral and transparent",
+        "Bright and detailed",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "How important is bass performance from your main speakers?",
+      "options": [
+        "Very important — I want deep bass without a subwoofer",
+        "Moderately important — I may use a subwoofer",
+        "Not a priority — I prefer clarity and imaging"
+      ]
+    },
+    {
+      "question": "What types of music do you listen to most often?",
+      "options": [
+        "Classical / Jazz",
+        "Rock / Blues",
+        "Pop / Hip-Hop / EDM",
+        "Acoustic / Folk / Indie",
+        "A bit of everything"
+      ]
+    },
+    {
+      "question": "Do you plan to add a subwoofer?",
+      "options": [
+        "Yes — I want deeper bass extension",
+        "No — I prefer a full-range speaker solution",
+        "Maybe later"
+      ]
+    },
+    {
+      "question": "What is your budget for speakers?",
+      "options": [
+        "Under $1,000",
+        "$1,000 – $2,500",
+        "$2,500 – $5,000",
+        "$5,000 – $10,000",
+        "Reference - Over $10,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "Subwoofers",
+  "icon": "../assets/icons/category-icons/subwoofers-icon.png",
+  "questions": [
+    {
+      "question": "What role do you want your subwoofer to play in your system?",
+      "options": [
+        "Filling in low-end for bookshelf speakers",
+        "Extending full-range towers even deeper",
+        "Adding visceral impact for certain genres (EDM, hip-hop, film)",
+        "Not sure — I just want more bass"
+      ]
+    },
+    {
+      "question": "How large is your listening room?",
+      "options": [
+        "Small (under 150 sq ft)",
+        "Medium (150–300 sq ft)",
+        "Large (over 300 sq ft)"
+      ]
+    },
+    {
+      "question": "Do you prefer sealed or ported subwoofer designs?",
+      "options": [
+        "Sealed — tighter, more accurate bass",
+        "Ported — deeper, more powerful bass",
+        "No preference / not sure"
+      ]
+    },
+    {
+      "question": "How important is size and placement flexibility?",
+      "options": [
+        "Very — I need something compact or hidden",
+        "Somewhat — I have a few placement options",
+        "Not important — I can accommodate a large subwoofer"
+      ]
+    },
+    {
+      "question": "What type of music do you want your subwoofer to perform best with?",
+      "options": [
+        "Classical / Jazz — subtle, musical bass",
+        "Rock / Indie / Pop — punchy and tight",
+        "Hip-Hop / Electronic — deep and heavy",
+        "Everything — I want versatility"
+      ]
+    },
+    {
+      "question": "Do you need wireless or app control features?",
+      "options": [
+        "Yes — wireless or app tuning would help",
+        "No — manual setup is fine",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you plan to use more than one subwoofer?",
+      "options": [
+        "Yes — dual sub setup",
+        "No — single subwoofer",
+        "Maybe later"
+      ]
+    },
+    {
+      "question": "Do you want onboard room correction or DSP?",
+      "options": [
+        "Yes — I want automatic tuning",
+        "No — I’ll tune it manually or use my own tools",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you need high-level (speaker wire) inputs?",
+      "options": [
+        "Yes",
+        "No — I'll use RCA or LFE",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "What is your budget for a subwoofer?",
+      "options": [
+        "Under $1,000",
+        "$1,000 – $2,500",
+        "Over $2,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "Streamers",
+  "icon": "../assets/icons/category-icons/streamers-icon.png",
+  "questions": [
+    {
+      "question": "What streaming service do you primarily use?",
+      "options": [
+        "Spotify",
+        "TIDAL",
+        "Qobuz",
+        "Apple Music",
+        "Other / Multiple"
+      ]
+    },
+    {
+      "question": "What features do you need in a streamer?",
+      "options": [
+        "Built-in DAC",
+        "App-based control (iOS/Android)",
+        "Multi-room support (e.g. Roon, AirPlay, Chromecast)",
+        "Physical remote",
+        "Just basic streaming — no extras needed"
+      ]
+    },
+    {
+      "question": "How do you plan to connect the streamer to your system?",
+      "options": [
+        "Analog outputs (RCA/XLR to amp or preamp)",
+        "Digital out to an external DAC (coax, optical, USB)",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "Do you prefer using a dedicated app or integrations with other platforms?",
+      "options": [
+        "I want a great app experience",
+        "I prefer Roon / network audio integrations",
+        "I’ll control it from my phone using the streaming app itself",
+        "No preference"
+      ]
+    },
+    {
+      "question": "Do you want your streamer to support wireless protocols?",
+      "options": [
+        "AirPlay",
+        "Chromecast",
+        "Bluetooth",
+        "Roon Ready",
+        "All of the above",
+        "Not important to me"
+      ]
+    },
+    {
+      "question": "Will the streamer be placed near your router or require Wi-Fi?",
+      "options": [
+        "Yes — I need Wi-Fi support",
+        "No — I can use Ethernet",
+        "Both options are fine"
+      ]
+    },
+    {
+      "question": "How important is the visual interface or screen on the streamer?",
+      "options": [
+        "Very important — I want album art and metadata",
+        "Nice to have, but not essential",
+        "Not important — I’ll control it from a phone or tablet"
+      ]
+    },
+    {
+      "question": "Do you need USB input/output for local files or hard drive playback?",
+      "options": [
+        "Yes — I have local music files",
+        "No — I only use online streaming",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Are you looking for a compact, hidden unit or a full-size hi-fi component?",
+      "options": [
+        "Compact — I want something discreet",
+        "Full-size — I prefer traditional hi-fi form factor",
+        "No preference"
+      ]
+    },
+    {
+      "question": "What is your budget for a music streamer?",
+      "options": [
+        "Under $500",
+        "$500 – $1,000",
+        "$1,000 – $2,000",
+        "Over $2,000"
+      ]
+    }
+  ]
+},
+{
+  "title": "DACs",
+  "icon": "../assets/icons/category-icons/dacs-icon.png",
+  "questions": [
+    {
+      "question": "What sources will you be using with your DAC?",
+      "options": [
+        "Computer / laptop",
+        "Dedicated music streamer",
+        "CD transport",
+        "Multiple / not sure yet"
+      ]
+    },
+    {
+      "question": "What digital inputs do you need?",
+      "options": [
+        "USB",
+        "Optical (TOSLINK)",
+        "Coaxial (S/PDIF)",
+        "AES/EBU",
+        "I’m not sure — help me decide"
+      ]
+    },
+    {
+      "question": "Do you need analog volume control or preamp functionality in your DAC?",
+      "options": [
+        "Yes — I want to connect directly to a power amp",
+        "No — I’ll use a separate preamp",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you plan to use headphones with this DAC?",
+      "options": [
+        "Yes — I want a built-in headphone amp",
+        "No — I have a separate headphone setup",
+        "Not important"
+      ]
+    },
+    {
+      "question": "What kind of sound signature do you prefer from a DAC?",
+      "options": [
+        "Neutral and transparent",
+        "Warm and smooth",
+        "Detailed and analytical",
+        "Not sure — just want it to sound good"
+      ]
+    },
+    {
+      "question": "Do you need wireless connectivity (e.g., Bluetooth, Wi-Fi)?",
+      "options": [
+        "Yes — I want wireless input",
+        "No — I prefer wired connections",
+        "Not important"
+      ]
+    },
+    {
+      "question": "What types of files or formats do you want to support?",
+      "options": [
+        "Standard (MP3, AAC, FLAC)",
+        "High-res PCM (24-bit, 192kHz)",
+        "DSD / SACD playback",
+        "All of the above",
+        "Not sure"
+      ]
+    },
+    {
+      "question": "Do you care about the DAC chip or internal architecture?",
+      "options": [
+        "Yes — I’m picky about chipsets (e.g., ESS, AKM, R2R)",
+        "Somewhat — I’ll consider it in my decision",
+        "No — I trust the brand or reviews"
+      ]
+    },
+    {
+      "question": "Do you need portability or battery power?",
+      "options": [
+        "Yes — I want to use it on the go or with a laptop",
+        "No — it will stay in my home system",
+        "Not sure yet"
+      ]
+    },
+    {
+      "question": "What is your budget for a DAC?",
+      "options": [
+        "Under $1000",
+        "$1000-$2000",
+        "$2000-$5000",
+        "Over $5000"
+      ]
+    }
+  ]
+}
+  ]
+}
