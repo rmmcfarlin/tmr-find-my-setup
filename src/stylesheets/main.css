@@ -21,6 +21,7 @@
     --darkblue-lighter: rgb(68, 99, 156);
     --navy-light: rgb(38, 53, 80);
     --navy-lighter: rgb(63, 80, 111);
+    --navy-lighter-bright: rgb(101, 130, 180);
     --gold-dark: rgb(153, 108, 38);
     --gold-light: rgb(212, 168, 99);
     --gold-lighter: rgb(239, 212, 152);
@@ -187,7 +188,7 @@
 
 .action-button {
     position: absolute;
-    bottom: 0rem;
+    bottom: -2rem;
     left: 0rem;
     right: 0rem;
     margin: auto;
@@ -255,17 +256,18 @@
     width: 13rem;
     height: 3rem;
     border-radius: 10px;
-    background-color: var(--navy);
+    background-color: var(--charcoal);
     font-size: 1rem;
     color: white;
 }
 
 .half-width-button:hover {
-  background-color: var(--navy-lighter);
+  background-color: var(--navy-lighter-bright);
 }
 
-.half-width-button:active {
-  background-color: var(--navy-lighter);
+.half-width-button.active {
+  background-color: var(--navy-lighter-bright);
+  box-shadow: 0px 0px 2px black;
 }
 
 .selection-buttons p {
@@ -273,3 +275,52 @@
     font-style: italic;
 }
 
+.fullsystem-photo {
+  width: 75%;
+  margin-top: 2rem;
+}
+
+.component-button-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.component-button {
+  width: 75%;
+  min-height: 3rem;
+  display: flex;
+  background-color: white;
+  margin-bottom: 1.5rem;
+  border-radius: 0.7rem;
+  padding-left: 1rem;
+  align-items: center;
+}
+
+.component-button:last-of-type {
+  margin-bottom: 0;
+}
+
+.component-button p {
+  font-style: normal;
+  margin-left: 1rem;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+.component-buttons-container {
+  width: 100%;
+  height: 16.7rem;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.component-button:hover {
+  box-shadow: 0px 0px 3px black;
+}
+
+.component-button.active {
+  box-shadow: 0px 0px 3px black;
+}

@@ -11,7 +11,7 @@ const QuizWrapper = () => {
         {quizName ? (
         <QuizMain  quiz={quizName}/>
         ) : (
-        <QuizSelection />
+        <QuizSelection setQuizName={setQuizName}/>
         )}
         </>
 

@@ -1,16 +1,31 @@
 import { useState } from "react"
+import ComponentSelection from "./componentselection"
+import listeningRoom from "../assets/listening-room.webp"
 
-const QuizSelection = () => {
+const QuizSelection = ({setQuizName}) => {
 
-    const [typeSelection, setTypeSelection] = useState(null)
-    const [isClicked, setIsClicked] = useState(false)
+    const [typeSelection, setTypeSelection] = useState('fullsystem')
+    const [componentSelection, setComponentSelection] = useState(null)
+    const [quizSelection, setQuizSelection] = useState('fullsystem')
+
 
     const handleClick = (value) => {
         setTypeSelection(value)
+        if (value === "fullsystem") {
+            setQuizSelection("fullsystem")
+        } if (value === "component") {
+            setQuizSelection(null)
+        }
     }
 
+    const selectComponent = (value) => {
+        setComponentSelection(value)
+        setQuizSelection(value)
+    }
 
-    const options = ["Power Amplifiers", "Preamplifiers", "Integrated Amplifiers", "Speakers", "Subwoofers", "Streamers", "DACs"]
+    const handleStart = (quizSelection) => {
+        setQuizName(quizSelection)
+    }
 
     const componentCopy = "Get recommendations for individual components based on your current system and listening preferences."
     const fullsystemCopy = "Generate a full system based on your room size, listening preferences, and more."
@@ -20,20 +35,36 @@ const QuizSelection = () => {
         if (typeSelection === "fullsystem") {return fullsystemCopy}
     }
 
+    const getTypeButtonClass = (value) => {
+
+        let className = "half-width-button"
+        if (value === typeSelection) {
+            className += " active"
+        }
+        return className
+    }
+
+
+
     return (
         <>
         <div className="selection-header left-content">
-            <p className="quiz-question">Select a quiz to get started.</p>
+            <p className="quiz-question">Select an quiz to get started.</p>
         </div>
         <div className="selection-buttons right-content">
             <div id="quiz-type-selection">
-                <button className="half-width-button" onClick={() => handleClick("fullsystem")}>Full System</button>
-                <button className="half-width-button" onClick={() => handleClick("component")}>Components</button>
+                <button className={getTypeButtonClass("fullsystem")} onClick={() => handleClick("fullsystem")}>Full System</button>
+                <button className={getTypeButtonClass("component")} onClick={() => handleClick("component")}>Components</button>
             </div>
              <p>{getTypeSelection()}</p>
             <div id="component-selection">
+                {typeSelection ? ( typeSelection === "fullsystem" ? (
+                    <img src={listeningRoom} className="fullsystem-photo"></img>
+                ) : (
+                    <ComponentSelection selectComponent={selectComponent} componentSelection={componentSelection} />
+                )) : <div></div>}
             </div>
-            <button className="action-button">Start Quiz</button>
+            <button className="action-button" onClick={() => handleStart(quizSelection)}>Start Quiz</button>
         </div>
         </>
     )
